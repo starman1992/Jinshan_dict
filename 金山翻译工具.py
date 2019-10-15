@@ -39,5 +39,6 @@ def Jinshan(onlyone=1,content=None):
         if 'out' in target['content']:
             print("金山翻译结果：%s" % (target['content']['out']))
         else:
-            print("金山翻译结果：%s" % (target['content']['word mean']))
+            print("金山翻译结果：%s" % (target['content']['word_mean']))
         time.sleep(3)   #系统休息3秒钟
+Jinshan()
